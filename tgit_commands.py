@@ -132,4 +132,15 @@ class TgitBlameCommand(TortoiseGitCommandBase):
     def _relevant_path(self):
         return self._active_file_path()
 
+class TgitAddCommand(TortoiseGitCommandBase):
+    def run(self, edit=None, dirs=[]):
+        self._execute_command('add', self._selected_dir(dirs))
 
+    def _relevant_path(self):
+        return self._active_file_or_repo_path()
+		
+class TgitRevertCommand(TortoiseGitCommandBase):
+    def run(self, edit=None, dirs=[]):
+        self._execute_command('revert', self._selected_dir(dirs))
+    def _relevant_path(self):
+        return self._active_file_or_repo_path()
