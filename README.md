@@ -54,7 +54,7 @@ If you don't use Package Control, you can do the following:
 1. Go to folder `Packages`:
    It can be found at `%APPDATA%\Sublime Text 3\Packages`.  Also, clicking
    `Preferences/Browse Packages...` in Sublime Text will open the right directory.
-2. In that directory, run `git clone git@github.com:ses4j/tgit-st3.git`.
+2. In that directory, run `git clone git@github.com:sjp27/tgit-st3.git`.
 
 ### Configuration
 
@@ -68,4 +68,5 @@ from whom I got useful direction:
 
 * https://github.com/fyneworks/sublime-TortoiseGIT
 * https://github.com/kemayo/sublime-text-git
+* https://github.com:ses4j/tgit-st3.git
 
